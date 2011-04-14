@@ -28,13 +28,28 @@ public class CalculatorTest {
     }
     
     @Test
+    public void testMult2_3() {
+        assertEquals(6, calc.mult(2, 3));
+    }
+    
+    @Test
     public void testSub() {
         assertEquals(2, calc.sub(4, 2));
     }
     
     @Test
+    public void testSub2_2() {
+        assertEquals(0, calc.sub(2, 2));
+    }
+    
+    @Test
     public void testDiv() {
         assertEquals(2, calc.div(4, 2));
+    }
+    
+    @Test
+    public void testDiv2_2() {
+        assertEquals(1, calc.div(2, 2));
     }
 
 }
