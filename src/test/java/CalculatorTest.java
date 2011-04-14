@@ -23,6 +23,11 @@ public class CalculatorTest {
     }
     
     @Test
+    public void testAddBig() {
+        assertEquals(Integer.MIN_VALUE, calc.add(Integer.MAX_VALUE, 1));
+    }
+    
+    @Test
     public void testMult() {
         assertEquals(4, calc.mult(2, 2));
     }
