@@ -51,5 +51,10 @@ public class CalculatorTest {
     public void testDiv2_2() {
         assertEquals(1, calc.div(2, 2));
     }
+    
+    @Test
+    public void testDiv_0() {
+        calc.div(2, 0);
+    }
 
 }
