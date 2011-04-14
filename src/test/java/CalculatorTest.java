@@ -16,5 +16,20 @@ public class CalculatorTest {
     public void testAdd() {
         assertEquals(4, calc.add(2, 2));
     }
+    
+    @Test
+    public void testMult() {
+        assertEquals(4, calc.mult(2, 2));
+    }
+    
+    @Test
+    public void testSub() {
+        assertEquals(2, calc.sub(4, 2));
+    }
+    
+    @Test
+    public void testDiv() {
+        assertEquals(2, calc.div(4, 2));
+    }
 
 }
