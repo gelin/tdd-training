@@ -6,15 +6,15 @@ public class Calculator {
     }
 
     public int mult(int i, int j) {
-        return 4;
+        return i * j;
     }
 
     public int sub(int i, int j) {
-        return 2;
+        return i - j;
     }
 
     public int div(int i, int j) {
-        return 2;
+        return i / j;
     }
 
 }
