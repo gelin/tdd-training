@@ -2,7 +2,7 @@
 public class Calculator {
 
     public int add(int i, int j) {
-        return 4;
+        return i + j;
     }
 
     public int mult(int i, int j) {
