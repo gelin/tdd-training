@@ -18,6 +18,11 @@ public class CalculatorTest {
     }
     
     @Test
+    public void testAdd2_3() {
+        assertEquals(5, calc.add(2, 3));
+    }
+    
+    @Test
     public void testMult() {
         assertEquals(4, calc.mult(2, 2));
     }
