@@ -52,7 +52,7 @@ public class CalculatorTest {
         assertEquals(1, calc.div(2, 2));
     }
     
-    @Test
+    @Test(expected=ArithmeticException.class)
     public void testDiv_0() {
         calc.div(2, 0);
     }
