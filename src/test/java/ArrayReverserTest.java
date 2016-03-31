@@ -14,9 +14,9 @@ public class ArrayReverserTest {
 
     @Test
     public void testReverse() {
-        int[] original = {1, 2, 3};
-        int[] reversed = this.reverser.reverse(original);
-        assertArrayEquals("wrong reverse", new int[] {3, 2, 1}, reversed);
+        int[] array = {1, 2, 3};
+        this.reverser.reverse(array);
+        assertArrayEquals("wrong reverse", new int[] {3, 2, 1}, array);
     }
 
 }
