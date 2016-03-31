@@ -19,7 +19,7 @@ public class HelloWorldTest {
     @Test
     public void testMain() {
         HelloWorld.main(null);
-        assertEquals("Hello, TDD!\r\n", getOut());
+        assertEquals("Hello, TDD!\n", getOut());
     }
     
     String getOut() {
